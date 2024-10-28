@@ -3,7 +3,7 @@ module github.com/ironcore-dev/ironcore
 go 1.23.2
 
 require (
-	github.com/afritzler/protoequal v0.1.0
+	github.com/afritzler/protoequal v0.1.1
 	github.com/bits-and-blooms/bitset v1.14.3
 	github.com/blang/semver/v4 v4.0.0
 	github.com/go-chi/chi/v5 v5.1.0
@@ -19,6 +19,7 @@ require (
 	golang.org/x/sync v0.8.0
 	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.67.1
+	google.golang.org/protobuf v1.35.1
 	k8s.io/api v0.30.4
 	k8s.io/apimachinery v0.30.4
 	k8s.io/apiserver v0.30.4
