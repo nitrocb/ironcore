@@ -5,6 +5,7 @@ metadata:
 spec:
   volumeClassRef:
     name: volumeclass-sample
+  volumePoolRef: volumepool-sample
   image: gardenlinux:rootfs-image
   resources:
     storage: 10Gi
